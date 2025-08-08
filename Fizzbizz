@@ -1,0 +1,25 @@
+ import java.util.Scanner;
+public class fizzbizz {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int age=sc.nextInt();
+		if (age>=18)
+		{
+			System.out.println("the eligible for vote");
+			
+		
+		if (age>=24)
+		{
+			System.out.println("the eligible for canditate");
+		}
+		}
+		else 
+		{
+			System.out.println("the eligible for vote");
+		}
+	}
+		
+}
